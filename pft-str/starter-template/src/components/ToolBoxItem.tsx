@@ -4,11 +4,13 @@ import { twMerge } from "tailwind-merge";
 const ToolBoxItem = ({
   items,
   className,
+  itemsWrapperClassName,
 }: {
   items: {
     title: string;
     iconType: React.ElementType;
     className?: string;
+    itemsWrapperClassName?: string;
   }[];
 }) => {
   return (
@@ -18,7 +20,12 @@ const ToolBoxItem = ({
         className
       )}
     >
-      <div className="flex flex-none py-0.5 gap-6">
+      <div
+        className={twMerge(
+          "flex flex-none py-0.5 gap-6 pr-6",
+          itemsWrapperClassName
+        )}
+      >
         {items.map((item) => (
           <div
             key={item.title}
