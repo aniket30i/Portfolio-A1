@@ -12,6 +12,7 @@ import ReactIcon from "@/assets/icons/react.svg";
 import NextjsIcon from "@/assets/icons/nextjs.svg";
 import ChromeIcon from "@/assets/icons/chrome.svg";
 import GithubIcon from "@/assets/icons/github.svg";
+import reduxIcon from "@/assets/icons/redux-icon.svg";
 
 import mapImage from "@/assets/images/map3.png";
 import smileMemoji from "@/assets/images/memoji-smile.png";
@@ -41,6 +42,10 @@ const toolBoxItems = [
   {
     title: "React",
     iconType: ReactIcon,
+  },
+  {
+    title: "Redux",
+    iconType: reduxIcon,
   },
   {
     title: "Chrome",
@@ -103,7 +108,7 @@ export const AboutSection = () => {
         <SectionHeader
           eyebrow="About Me"
           title="A Glimpse Into My World"
-          description="Learn more about who I am, who I am , and what inspires me."
+          description="Learn more about who I am, and what inspires me."
         />
         <div className="mt-20 flex flex-col gap-8">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-5 lg:grid-cols-3">
