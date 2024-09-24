@@ -8,7 +8,10 @@ import SparkleIcon from "@/assets/icons/sparkle.svg";
 
 export const HeroSection = () => {
   return (
-    <div className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip" id="home">
+    <div
+      className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip"
+      id="home"
+    >
       <div
         className="absolute inset-0"
         style={{
@@ -146,7 +149,7 @@ export const HeroSection = () => {
           </button>
           <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl">
             <span>🖐</span>
-            <span className="font-semibold">Let's Connect</span>
+            <span className="font-semibold">Lets Connect</span>
           </button>
         </div>
       </div>
