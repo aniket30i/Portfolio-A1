@@ -14,10 +14,10 @@ export const ContactSection = () => {
           <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center">
             <div>
               <h2 className="font-serif text-2xl md:text-3xl">
-                Let's Team up for an amazing journey
+                Lets Team up for an amazing journey
               </h2>
               <p className="text-sm mt-2 md:text-base">
-                Let's connect and discuss how our thoughts and vision aligns. I
+                Lets connect and discuss how our thoughts and vision aligns. I
                 am looking forward to it!
               </p>
             </div>
