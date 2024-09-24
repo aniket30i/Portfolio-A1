@@ -22,10 +22,16 @@ export const ContactSection = () => {
               </p>
             </div>
             <div>
-              <button className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 mt-8 w-max border-gray-900">
-                <span className="font-semibold">Contact Me</span>
-                <ArrowUpRightIcon className="size-4" />
-              </button>
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=aniket.saha.1809@gmail.com&su=Contact&body=Hi👋, Lets have a chat..."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 mt-8 w-max border-gray-900">
+                  <span className="font-semibold">Contact Me</span>
+                  <ArrowUpRightIcon className="size-4" />
+                </button>
+              </a>
             </div>
           </div>
         </div>

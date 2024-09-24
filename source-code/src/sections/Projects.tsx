@@ -1,6 +1,6 @@
-import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
-import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
-import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import mrjister from "@/assets/images/mrjister-summarizer.png";
+import coindom from "@/assets/images/coindom.png";
+import astrix from "@/assets/images/astrix.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRight from "@/assets/icons/arrow-up-right.svg";
@@ -9,40 +9,40 @@ import { Card } from "@/components/Card";
 
 const portfolioProjects = [
   {
-    company: "Acme Corp",
-    year: "2022",
-    title: "Dark Saas Landing Page",
+    company: "MrJister",
+    year: "2024",
+    title: "Chatgpt API Summarizer",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Summarize websites and articles" },
+      { title: "Navigate through previous results" },
+      { title: "Summarized by latest gpt model" },
     ],
-    link: "https://youtu.be/4k7IdSLxh6w",
-    image: darkSaasLandingPage,
+    link: "https://mrjister.vercel.app/",
+    image: mrjister,
   },
   {
-    company: "Innovative Co",
-    year: "2021",
-    title: "Light Saas Landing Page",
+    company: "Coin-DOM",
+    year: "2024",
+    title: "Top 100 Crytocurrency Dashboard",
     results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
+      { title: "Track the major market holding coins" },
+      { title: "See price trends over upto 5 years" },
+      { title: "Compare your target crytos" },
     ],
-    link: "https://youtu.be/7hi5zwO75yc",
-    image: lightSaasLandingPage,
+    link: "https://coin-dom-two.vercel.app/",
+    image: coindom,
   },
   {
-    company: "Quantum Dynamics",
-    year: "2023",
-    title: "AI Startup Landing Page",
+    company: "Astrix Events",
+    year: "2024",
+    title: "Event Promotional and Booking Page",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Multi-dimensional design" },
+      { title: "Subtle animation with Information" },
+      { title: "Placeholding for booking form" },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
-    image: aiStartupLandingPage,
+    link: "https://astrix-aniketsaha.netlify.app/",
+    image: astrix,
   },
 ];
 
