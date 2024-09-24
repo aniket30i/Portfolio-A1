@@ -7,11 +7,13 @@ import Image from "next/image";
 import JavascriptIcon from "@/assets/icons/square-js.svg";
 import HTMLIcon from "@/assets/icons/html5.svg";
 import CssIcon from "@/assets/icons/css3.svg";
+import tailwindcss from "@/assets/icons/tailwindcss.svg";
 import ReactIcon from "@/assets/icons/react.svg";
+import NextjsIcon from "@/assets/icons/nextjs.svg";
 import ChromeIcon from "@/assets/icons/chrome.svg";
 import GithubIcon from "@/assets/icons/github.svg";
 
-import mapImage from "@/assets/images/map.png";
+import mapImage from "@/assets/images/map3.png";
 import smileMemoji from "@/assets/images/memoji-smile.png";
 
 import CardHeader from "@/components/CardHeader";
@@ -33,6 +35,10 @@ const toolBoxItems = [
     iconType: CssIcon,
   },
   {
+    title: "Next.js",
+    iconType: NextjsIcon,
+  },
+  {
     title: "React",
     iconType: ReactIcon,
   },
@@ -43,6 +49,10 @@ const toolBoxItems = [
   {
     title: "Github",
     iconType: GithubIcon,
+  },
+  {
+    title: "Tailwind",
+    iconType: tailwindcss,
   },
 ];
 
@@ -88,7 +98,7 @@ const hobbbies = [
 export const AboutSection = () => {
   const constraintRef = useRef(null);
   return (
-    <div className="py-20 lg:py-28">
+    <div className="py-20 lg:py-28" id="about">
       <div className="container">
         <SectionHeader
           eyebrow="About Me"
@@ -115,7 +125,6 @@ export const AboutSection = () => {
               />
               <ToolBoxItem
                 items={toolBoxItems}
-                className=""
                 itemsWrapperClassName="animate-move-left [animation-duration:30s]"
               />
               <ToolBoxItem
