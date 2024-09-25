@@ -135,7 +135,11 @@ export const HeroSection = () => {
         </div>
         <div className="max-w-lg mx-auto">
           <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">
-            Konnichiwa , I&apos;m Aniket, a Frontend Developer
+            Konnichiwa , I&apos;m Aniket, a{" "}
+            <span className="bg-gradient-to-r from-teal-500 to-sky-500 bg-clip-text text-transparent">
+              Frontend
+            </span>{" "}
+            Developer
           </h1>
           <p className="mt-4 text-center text-white/60 md:text-lg ">
             I specialize in transforming designs into functional, appealing web
