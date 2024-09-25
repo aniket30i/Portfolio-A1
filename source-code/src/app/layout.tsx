@@ -11,7 +11,7 @@ const calistoga = Calistoga({
   weight: "400",
 });
 export const metadata: Metadata = {
-  title: "Aniket Saha exe",
+  title: "Aniket Saha | Portfolio",
   description: "Very Own Portfolio at last",
 };
 
